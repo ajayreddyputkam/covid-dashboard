@@ -1,0 +1,69 @@
+/* Write your CSS here */
+
+.bg-main-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-all-container {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.website-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 45px;
+  width: 45px;
+  margin-right: 5px;
+}
+
+.cowin-logo-name {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.vaccination-main-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.failure-image {
+  width: 500px;
+}
+
+.failure-message {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.loader-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
